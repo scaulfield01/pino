@@ -1,6 +1,8 @@
 .note-container{
   width: 75%;
   display: flex;
+  border: solid;
+  border-width: 1px;
 
 }
 .note{
@@ -14,5 +16,5 @@
 .black {
   background-color: black;
   color:white;
-  height: 35%;
+  height: 45%;
 }
