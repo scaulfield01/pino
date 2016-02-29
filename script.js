@@ -1,12 +1,9 @@
 $( document ).ready(function() {
-
   var recordArray = [];
 
   $(".note").click(function() {
     var noteToPlayClick = $(this).attr("id") + ".wav"
-    recordArray.push(noteToPlayClick)
     notePlayer(noteToPlayClick)
-    console.log(recordArray)
   });
 
   $(".record-play").click(function(){
